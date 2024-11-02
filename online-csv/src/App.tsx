@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import Sidebar from 'components/Navbar';
+import './syles/App.css';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-    <p>hello</p>
-    </>
-  )
-}
+    <div>
+      <Sidebar />
+    </div>
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Mono+One&display=swap');
+.navbar {
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  max-width: max-content;
+}
+.navbar_item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.navbar_levlogo {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.navbar_levlogo_hidden {
+  display: none;
+
+}
+
+.chevron_right {
+  height: 3rem;
+  transform: rotate(0deg);
+  transition: transform 400ms;
+}
+
+
+.chevron_left{
+  height: 3rem;
+  transform: rotate(180deg);
+  transition: transform 400ms;
+}
