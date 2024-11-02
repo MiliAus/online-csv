@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from 'components/Navbar';
+import Sidebar from 'src/components/Navbar';
 import './syles/App.css';
 
 const App = () => {

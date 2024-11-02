@@ -1,8 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "*": ["*"] // This allows for module resolution
+      "src/*": ["./src/*"],
+      "components/*":["./src/components/*"],
+      "assets": ["./src/assets/*"],
+      "lib": ["./src/lib/*"],
     }
   }
 }
