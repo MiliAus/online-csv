@@ -5,9 +5,16 @@
   cursor: pointer;
   max-width: max-content;
 }
-.navbar_item {
+.navbar_item1 {
   display: inline-block;
   vertical-align: top;
+}
+.navbar_item2 {
+  display: inline-block;
+  vertical-align: top;
+  top: 0;
+  right: 50px;
+  position: fixed;
 }
 
 .navbar_levlogo {
