@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+.main_i1{
+    
+    
+}
+.main_i2{
+    
+    
+}
+
+.main_greeting {
+    color: black;
+    font-size: 50px;
+    
+}
+
+.main_avatar {
+    height: 20rem;
+    width: 20rem;
+}
