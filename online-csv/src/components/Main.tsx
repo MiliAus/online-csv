@@ -12,8 +12,11 @@ const Navbar = () => {
     return (
       <>
       <div className='main'>
-        <div className='main_i1'><p className='main_greeting'>Hi,<br></br>My name is Austin.</p></div>
-        <div className='main_i2'><img className="main_avatar" src={Avatar} alt="avatar picture" /></div>
+        <div className='main_group1'>
+          <div className='main_i1'><p className='main_greeting'>Hi, I'm Austin.</p></div>
+          <div className='main_i2'><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum consequuntur enim iure aliquid eius beatae, nam aperiam eaque in molestiae dolore ipsam aliquam sequi molestias! Quam nisi perferendis temporibus? Non!</p></div>
+        </div>
+        <div className='main_i3'><img className="main_avatar" src={Avatar} alt="avatar picture" /></div>
       </div>
 
       </>

@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Mono+One&display=swap');
 .navbar {
-  display: inline-block;
-  vertical-align: top;
+  background-color: white;
+  position:fixed;  
+  height:50px;
+  text-align:center;
+  vertical-align:middle;
+  line-height:50px;
+  top:0px;
   cursor: pointer;
-  max-width: max-content;
+  border: 1px solid black;
 }
 .navbar_item1 {
   display: inline-block;
   vertical-align: top;
+  align-items: left;
 }
 .navbar_item2 {
   display: inline-block;
