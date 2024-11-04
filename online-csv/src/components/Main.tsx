@@ -13,10 +13,9 @@ const Navbar = () => {
       <>
       <div className='main'>
         <div className='main_group1'>
-          <div className='main_i1'><p className='main_greeting'>Hi, I'm Austin.</p></div>
-          <div className='main_i2'><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum consequuntur enim iure aliquid eius beatae, nam aperiam eaque in molestiae dolore ipsam aliquam sequi molestias! Quam nisi perferendis temporibus? Non!</p></div>
+          <div className='main_i1'><p className='main_greeting'>I'm Austin Leverett</p></div>
+          <div className='main_i2'><p>A tech enthusiast who's goal is simplicity, yet thoughtful design.</p></div>
         </div>
-        <div className='main_i3'><img className="main_avatar" src={Avatar} alt="avatar picture" /></div>
       </div>
 
       </>

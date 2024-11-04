@@ -1,3 +1,19 @@
 .themelogo {
     height: 2rem;
 }
+
+body {
+    margin: 0;
+}
+
+:root {
+    --background: white;
+    --text-primary: black; 
+    --nav-primary: rgba(0, 0, 0, 0.13);
+  }
+  [data-theme='dark'] {
+    --background: rgba(0, 0, 0, 0.897);
+    --text-primary: white;
+    --background-secondary: rgba(0, 0, 0, 0.13);
+    --nav-secondary: rgba(0, 0, 0, 0.582);
+  }
