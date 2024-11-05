@@ -5,7 +5,11 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
-    
+}
+.main_box1 {
+    display: flex;
+    margin-left: 2rem;
+    position: fixed;
 }
 .main_group1 {
     display: flex;
@@ -15,19 +19,37 @@
     font-weight: 400;
     font-style: normal;
 }
-.main_i1{
+.main_group2 {
     display: flex;
-    margin-bottom: 0;
-    /* border: 1px solid black; */
+    flex-direction: row;
+    max-width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.main_group1_i1{
+    display: flex;
+    margin-bottom: -5px;
 
     
 }
-.main_i2{
+.main_group1_i2{
     display: flex;
-    margin-top: -10px;
+    margin-top: -20px;
     display: inline-flex;
-    /* border: 1px solid black; */
     
+}
+
+.main_group2_i1 {
+    height: 24px;
+    width: 24px;
+}
+
+.main_group2_i2 {
+    margin-left: 20px;
+    height: 24px;
+    width: 24px;
 }
 
 .main_greeting {

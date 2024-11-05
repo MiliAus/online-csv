@@ -4,13 +4,14 @@
 .navbar {
   display: flex;
   background-color: var(--nav-primary);
-  position:fixed;  
+  position: fixed;  
   height:50px;
   text-align: center;
   vertical-align:middle;
   line-height:50px;
   top:0px;
   width: 100%;
+  max-width: 50%;
   align-self: center;
   align-items: center;
   /* border: 1px solid black; */
@@ -18,7 +19,7 @@
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
-  left: 100px;
+  left: 50px;
   position: fixed;
   font-family: "Rubik Mono One", serif;
   font-weight: 400;

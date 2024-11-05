@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 :root {
     --background: white;
     --text-primary: black; 
