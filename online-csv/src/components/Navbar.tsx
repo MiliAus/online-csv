@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import 'src/syles/Navbar.css';
-import Chevron from 'src/assets/chevron.svg';
-import Sun from 'src/assets/light_mode.svg';
-import Moon from 'src/assets/dark_mode.svg';
+import 'src/styles/Navbar.css';
 import { useEffect } from 'react';
+
 
 
 
@@ -41,7 +39,6 @@ const Navbar = () => {
           <div>About</div>
           <div>Experience</div>
           <div>Projects</div>
-          <img src={Sun} alt="sun theme" />
         </div>
       </div>
 

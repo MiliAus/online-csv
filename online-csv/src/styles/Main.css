@@ -14,7 +14,7 @@
 .main_group1 {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 100%;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -50,6 +50,13 @@
     margin-left: 20px;
     height: 24px;
     width: 24px;
+}
+
+.main_group2_i3 {
+    margin-left: 20px;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
 }
 
 .main_greeting {
