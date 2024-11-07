@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import 'src/styles/Navbar.css';
 import { useEffect } from 'react';
 
 

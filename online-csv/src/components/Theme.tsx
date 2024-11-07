@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
-import Sun from 'src/assets/light_mode.svg';
-import Moon from 'src/assets/dark_mode.svg';
 import useLocalStorage from 'use-local-storage';
+import Sun from 'src/components/Sun';
+import Moon from 'src/components/Moon';
+
 
 export default function Theme () {
     
@@ -17,7 +18,7 @@ export default function Theme () {
     
 
     return (
-        <div onClick={switchTheme}><img className='main_group2_i3' src={Sun} alt="sun theme" /></div>
+        <div onClick={switchTheme}>{theme === 'light' ? <Sun /> : <Moon />}</div>
     );
 };
 

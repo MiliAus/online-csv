@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Navbar from 'src/components/Navbar';
-import './styles/App.css';
 import Main from 'src/components/Main'
-import Theme from 'src/components/Theme'
 import useLocalStorage from 'use-local-storage';
 
 
