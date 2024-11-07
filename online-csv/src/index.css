@@ -19,7 +19,6 @@ footer {
   margin: 0;
 }
 
-
 .hidden {
   display: none;
 }
@@ -40,20 +39,20 @@ footer {
   color: var(--text-primary);
   background-color: var(--background);
   transition: all .5s;
-  height: calc(100rem);
+  height: 100vh;
+  min-height: 100vh;
 }
 
 
 /* ****************** Main Content ********************* */
-.main{
-    display: flex;
+.main {
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    margin-top: 15rem;
 }
 .main_box1 {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 3rem;
     position: fixed;
 }
 .main_group1 {
@@ -113,7 +112,24 @@ footer {
 }
 
 /* ***************************************************** */
+/* ****************** Secondary Content **************** */
+.secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top: 5rem;
+}
+.secondary_box1 {
+  display: flex;
+  margin-left: 2rem;
+  position: fixed;
+}
 
+
+
+
+/* ***************************************************** */
 /* ****************** Navbar Content ********************* */
 .navbar {
   display: flex;
@@ -133,7 +149,7 @@ footer {
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
-  left: 50px;
+  margin-left: 3rem;
   position: fixed;
   font-family: "Rubik Mono One", serif;
   font-weight: 400;

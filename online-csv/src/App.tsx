@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Navbar from 'src/components/Navbar';
-import Main from 'src/components/Main'
+import Main from 'src/components/Main';
+import Exp from 'src/components/Exp';
+import About from 'src/components/About';
 import useLocalStorage from 'use-local-storage';
 
 
@@ -17,7 +19,9 @@ const App = () => {
     <>
     <div className="App" data-theme={theme}>
       <Navbar />
-      <Main />
+        <div className='main_box1'><Main /></div>
+        {/* <div className='secondary_box1'><About /></div>
+        <div className='secondary_box1'><Exp /></div> */}
     </div>
     </>
   );
