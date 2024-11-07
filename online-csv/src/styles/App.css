@@ -1,0 +1,6 @@
+.App {
+    color: var(--text-primary);
+    background-color: var(--background);
+    transition: all .5s;
+    height: calc(100rem);
+  }

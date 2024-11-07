@@ -26,7 +26,6 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-
 }
 .main_group1_i1{
     display: flex;
@@ -44,12 +43,14 @@
 .main_group2_i1 {
     height: 24px;
     width: 24px;
+    fill: var(--text-primary) !important;
 }
 
 .main_group2_i2 {
     margin-left: 20px;
     height: 24px;
     width: 24px;
+    fill: var(--text-primary) !important;
 }
 
 .main_group2_i3 {
@@ -57,10 +58,11 @@
     height: 24px;
     width: 24px;
     cursor: pointer;
+    fill: var(--text-primary) !important;
 }
 
 .main_greeting {
-    color: black;
+    color: var(--text-primary);
     font-size: 20px;
     
 }

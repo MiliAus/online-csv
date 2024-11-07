@@ -1,19 +1,31 @@
 body {
     margin: 0;
+    height: 100%;
 }
+html {
+  height: 100%;
+}
+#index {
+  height: 100%;
+  background-size: cover;
+}
+footer {
+  margin: 0;
+}
+
 
 .hidden {
   display: none;
 }
 
 :root {
-    --background: white;
-    --text-primary: black; 
-    --nav-primary: rgba(0, 0, 0, 0.13);
-  }
-  [data-theme='dark'] {
-    --background: rgba(0, 0, 0, 0.897);
-    --text-primary: white;
-    --background-secondary: rgba(0, 0, 0, 0.13);
-    --nav-secondary: rgba(0, 0, 0, 0.582);
-  }
+  --background: white;
+  --text-primary: black;
+  --nav-primary: #12121232; 
+}
+
+[data-theme='dark'] {
+  --background: #121212;
+  --text-primary: rgb(255, 255, 255); 
+  --nav-primary: #121212;
+}

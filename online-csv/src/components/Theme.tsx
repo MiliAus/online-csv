@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 import { useEffect } from 'react';
 import Sun from 'src/assets/light_mode.svg';
 import Moon from 'src/assets/dark_mode.svg';
+import useLocalStorage from 'use-local-storage';
 
 export default function Theme () {
-    const storedTheme = localStorage.getItem('theme');
-    const [isDarkMode, setDarkMode] = useState(storedTheme === 'dark');
+    
+  const defaultDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const [theme, setTheme] = useLocalStorage('theme', defaultDark ? 'dark' : 'light');
+  
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark': 'light';
+    setTheme(newTheme);
+  }
 
-    useEffect(() => {
-        localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-      }, [isDarkMode]);
-
-      const toggleTheme = () => {
-        setDarkMode(!isDarkMode);
-      };
-
+    
 
     return (
-        <div onClick={toggleTheme}><img className='main_group2_i3' src={Sun} alt="sun theme" /></div>
-    )
+        <div onClick={switchTheme}><img className='main_group2_i3' src={Sun} alt="sun theme" /></div>
+    );
 };
 

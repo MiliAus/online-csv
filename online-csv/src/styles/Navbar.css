@@ -47,16 +47,3 @@
   height: 1.5rem;
 }
 
-
-.chevron_down {
-  height: 2rem;
-  transform: rotate(90deg);
-  transition: transform 400ms;
-}
-
-
-.chevron_left{
-  height: 3rem;
-  transform: rotate(180deg);
-  transition: transform 400ms;
-}
