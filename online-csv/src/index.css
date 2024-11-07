@@ -62,6 +62,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin-left: 7rem;
 }
 .main_group2 {
     display: flex;
@@ -149,7 +150,7 @@ footer {
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
-  margin-left: 3rem;
+  margin-left: 10rem;
   position: fixed;
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
@@ -159,7 +160,7 @@ footer {
 }
 .navbar_group1 {
   display: inline-flex;
-  right: 50px;
+  right: 2rem;
   position: fixed;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
