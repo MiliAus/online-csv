@@ -22,10 +22,6 @@ const Navbar = () => {
     window.addEventListener("resize", handleResize)
   })
 
-  const scrollTop = () => {
-    window.scrollTo({top: 0, behavior: 'smooth'})
-  }
-
     
     
   function scrollTo (elementid) {
@@ -35,7 +31,7 @@ const Navbar = () => {
     return (
       <>
       <div className='navbar'>
-        <div className='navbar_logo' onClick={scrollTop}>Lev</div>
+        <div id="logo" className='navbar_logo' onClick={() => scrollTo("logo")}>Lev</div>
         <div className={isMobile ? 'hidden' : 'navbar_group1'}>
           <div onClick={() => scrollTo("about")}>About</div>
           <div onClick={() => scrollTo("exp")}>Experience</div>
