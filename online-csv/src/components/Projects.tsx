@@ -10,7 +10,7 @@ const Projects = () => {
     return (
       <>
       <div className='fourth'>
-      <h3 className='margins_small'>Projects</h3>
+      <h3 id="projects" className='margins_small'>Projects</h3>
       <p className='title'>Vito</p>
       <p className='margins_small'>Sunset public project focused on disability assistance. I worked on CI/CD processes such as setting up Github Actions and design choices for the frontend that utilized Swift UI.</p>
 

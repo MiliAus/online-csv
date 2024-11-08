@@ -28,16 +28,18 @@ const Navbar = () => {
 
     
     
-
+  function scrollTo (elementid) {
+    document.getElementById(elementid).scrollIntoView({behavior: 'smooth'});
+  }
   
     return (
       <>
       <div className='navbar'>
         <div className='navbar_logo' onClick={scrollTop}>Lev</div>
         <div className={isMobile ? 'hidden' : 'navbar_group1'}>
-          <div>About</div>
-          <div>Experience</div>
-          <div>Projects</div>
+          <div onClick={() => scrollTo("about")}>About</div>
+          <div onClick={() => scrollTo("exp")}>Experience</div>
+          <div onClick={() => scrollTo("projects")}>Projects</div>
         </div>
       </div>
 

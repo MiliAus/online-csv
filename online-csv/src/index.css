@@ -41,10 +41,12 @@ html, body, #app, #app>div {
     align-items: center;
     margin-top: 5rem;
 }
+
 .main_box1 {
     display: flex;
     position: static;
 }
+
 .main_group1 {
     display: flex;
     flex-direction: column;
@@ -53,7 +55,9 @@ html, body, #app, #app>div {
     font-weight: 400;
     font-style: normal;
     margin-left: 3rem;
+    margin-right: 1rem;
 }
+
 .main_group2 {
     display: flex;
     flex-direction: row;
@@ -62,12 +66,14 @@ html, body, #app, #app>div {
     font-weight: 400;
     font-style: normal;
 }
+
 .main_group1_i1{
     display: flex;
     margin-bottom: -5px;
 
     
 }
+
 .main_group1_i2{
     display: flex;
     margin-top: -20px;
@@ -119,6 +125,7 @@ html, body, #app, #app>div {
   font-weight: 400;
   font-style: normal;
   margin-left: 3rem;
+  margin-right: 1rem;
 } 
 
 
@@ -131,6 +138,7 @@ html, body, #app, #app>div {
   justify-content: left;
   margin-top: 1rem;
 }
+
 .tertiary_box1 {
   display: flex;
   flex-direction: column;
@@ -139,6 +147,7 @@ html, body, #app, #app>div {
   font-weight: 400;
   font-style: normal;
   margin-left: 3rem;
+  margin-right: 1rem;
 }
 
 /* ***************************************************** */
@@ -151,6 +160,7 @@ html, body, #app, #app>div {
   justify-content: left;
   margin-top: 1rem;
 }
+
 .fourth_box1 {
   display: flex;
   flex-direction: column;
@@ -159,7 +169,7 @@ html, body, #app, #app>div {
   font-weight: 400;
   font-style: normal;
   margin-left: 3rem;
-  position: sticky;
+  margin-right: 1rem;
 }
 
 
@@ -171,7 +181,7 @@ html, body, #app, #app>div {
   position: static; 
   height:50px;
   text-align: center;
-  vertical-align:middle;
+  vertical-align: middle;
   line-height:50px;
   top:0px;
   width: 100%;
@@ -179,6 +189,7 @@ html, body, #app, #app>div {
   align-self: center;
   align-items: center;
 }
+
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
@@ -190,18 +201,20 @@ html, body, #app, #app>div {
   font-size: x-large;
   cursor: pointer;
 }
+
 .navbar_group1 {
   display: inline-flex;
-  right: 2rem;
-  position: fixed;
+  position: static;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
   cursor: pointer;
 }
+
 .navbar_group1 div {
   margin-left: 1rem;
 }
+
 .navbar_group1 img {
   margin-left: 1rem;
 }
@@ -215,6 +228,7 @@ html, body, #app, #app>div {
 .title {
   font-weight: 500;
 }
+
 .skills {
   font-weight: 500;
   margin-top: 2px;
@@ -223,6 +237,27 @@ html, body, #app, #app>div {
 .margins_small {
   margin: 2px;
 }
+
+.mt_0 {
+  margin-top: 0px;
+}
+.mt_1 {
+  margin-top: 1px;
+}
 .mt_2 {
   margin-top: 2px;
+}
+.mt_3 {
+  margin-top: 4px;
+}
+.mt_4 {
+  margin-top: 4px;
+}
+
+.mt_1rem {
+  margin-top: 1rem;
+}
+
+.mt_2rem {
+  margin-top: 2rem;
 }
