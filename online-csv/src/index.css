@@ -261,3 +261,21 @@ html, body, #app, #app>div {
 .mt_2rem {
   margin-top: 2rem;
 }
+
+a {
+  color: var(--text-primary);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
+.project_image {
+  height: 250px;
+  width: 450px;
+}
+
+.projects_body {
+  display: inline-flex;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
