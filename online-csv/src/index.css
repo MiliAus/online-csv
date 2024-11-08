@@ -4,18 +4,8 @@
 
 
 
-body {
-    margin: 0;
-    height: 100%;
-}
-html {
-  height: 100%;
-}
-#index {
-  height: 100%;
-  background-size: cover;
-}
-footer {
+html, body, #app, #app>div {
+  padding: 0;
   margin: 0;
 }
 
@@ -39,8 +29,9 @@ footer {
   color: var(--text-primary);
   background-color: var(--background);
   transition: all .5s;
-  height: 100vh;
   min-height: 100vh;
+  overflow: auto;
+  max-height: 100vh;
 }
 
 
@@ -48,12 +39,11 @@ footer {
 .main {
     justify-content: center;
     align-items: center;
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
 .main_box1 {
     display: flex;
-    margin-left: 3rem;
-    position: fixed;
+    position: static;
 }
 .main_group1 {
     display: flex;
@@ -62,7 +52,7 @@ footer {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 7rem;
+    margin-left: 3rem;
 }
 .main_group2 {
     display: flex;
@@ -116,18 +106,61 @@ footer {
 /* ****************** Secondary Content **************** */
 .secondary {
   display: flex;
+  position: static;
   flex-direction: column;
   justify-content: left;
-  align-items: center;
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 .secondary_box1 {
   display: flex;
-  margin-left: 2rem;
-  position: fixed;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3rem;
 }
 
 
+/* ***************************************************** */
+/* ************** tertiary **************************** */
+.tertiary {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 1rem;
+}
+.tertiary_box1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3rem;
+}
+
+/* ***************************************************** */
+/* ************************* fourth ************************* */
+
+.fourth {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 1rem;
+}
+.fourth_box1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3rem;
+  position: sticky;
+}
 
 
 /* ***************************************************** */
@@ -135,7 +168,7 @@ footer {
 .navbar {
   display: flex;
   background-color: var(--nav-primary);
-  position: fixed;  
+  position: static; 
   height:50px;
   text-align: center;
   vertical-align:middle;
@@ -145,13 +178,12 @@ footer {
   max-width: 100%;
   align-self: center;
   align-items: center;
-  /* border: 1px solid black; */
 }
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
-  margin-left: 10rem;
-  position: fixed;
+  margin-left: 3rem;
+  position: static;
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
   font-style: normal;
@@ -180,3 +212,9 @@ footer {
 
 /* ***************************************************** */
 
+.title {
+  font-weight: 500;
+}
+.skills {
+  font-weight: 500;
+}

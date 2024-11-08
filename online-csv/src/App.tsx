@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Navbar from 'src/components/Navbar';
 import Main from 'src/components/Main';
 import Exp from 'src/components/Exp';
+import Projects from 'src/components/Projects';
 import About from 'src/components/About';
 import useLocalStorage from 'use-local-storage';
 
@@ -20,8 +21,9 @@ const App = () => {
     <div className="App" data-theme={theme}>
       <Navbar />
         <div className='main_box1'><Main /></div>
-        {/* <div className='secondary_box1'><About /></div>
-        <div className='secondary_box1'><Exp /></div> */}
+        <div className='secondary_box1'><About /></div>
+        <div className='tertiary_box1'><Exp /></div>
+        <div className='fourth_box1'><Projects /></div>
     </div>
     </>
   );

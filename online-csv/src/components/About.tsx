@@ -10,7 +10,10 @@ const About = () => {
     return (
       <>
       <div className='secondary'>
-        <h1 className='secondary_box1'>Hello There</h1>
+        <h3>About</h3>
+        <p>As a younger person, I always enjoyed computers, video games, and learning about topics that were not interesting to most people. I strive to find a deeper explanation of most things in life, and will work tirelessly to master anything that comes my way.</p>
+        <p>If I am not working on something on the computer, I like to play musical instruments or hang out with family.</p>
+
       </div>
       </>
         
