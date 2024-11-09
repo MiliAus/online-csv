@@ -29,4 +29,5 @@ jobs:
     - run: npm install
     - run: cd online-csv/
     - run: ls -l
+    - run: cd online-csv/ && ls -l
     # - run: npm run dev
