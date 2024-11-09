@@ -272,6 +272,7 @@ a {
 .project_image {
   height: 250px;
   width: 450px;
+  border: 1px var(--text-primary) solid;
 }
 
 .projects_body {
