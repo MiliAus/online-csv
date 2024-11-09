@@ -1,5 +1,5 @@
 //components
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import Theme from 'src/components/Theme'
 import Href from 'src/components/Href';
 import Pdf from 'src/components/Pdf';

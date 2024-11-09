@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useEffect } from 'react';
 import useLocalStorage from 'use-local-storage';
 import Sun from 'src/components/Sun';
