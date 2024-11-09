@@ -17,19 +17,19 @@ const Projects = () => {
               <div className='mt_1rem'>
                 <a className="title" href="https://github.com/Vito-Research">Vito</a>
                 <p className='mt_4'>Sunset public project focused on detecting infection in realtime. I worked on CI/CD processes such as setting up Github Actions and design choices for the frontend that utilized Swift UI.</p>
-                <div><img className="project_image" src="/src/assets/vito_website.PNG" alt="vito website" /></div>
+                <div><img className="project_image" src="/src/assets/vito_website.png" alt="vito website" /></div>
               </div>
             
               <div className='mt_1rem'>
                 <a href="https://github.com/MiliAus/todo-app">TODO Application</a>
                 <p className='mt_4'>Web app used to track tasks, delete tasks, and sort them based on priority.</p>
-                <div><img className="project_image" src="/src/assets/todo_darkmode.PNG" alt="vito website" /></div>
+                <div><img className="project_image" src="/src/assets/todo_darkmode.png" alt="vito website" /></div>
               </div>
             
               <div className='mt_1rem'>
                 <a href="https://github.com/MiliAus/online-csv">Austin Leverett Web Resume</a>
                 <p className='mt_4'>Website built with React, serving as an online portfolio and resume.</p>
-                <div><img className="project_image" src="/src/assets/personal_website.PNG" alt="vito website" /></div>
+                <div><img className="project_image" src="/src/assets/personal_website.png" alt="vito website" /></div>
               </div>
           </div>
 
