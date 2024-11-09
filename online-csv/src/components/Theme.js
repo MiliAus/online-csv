@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = Theme;
-var jsx_runtime_1 = require("react/jsx-runtime");
 var use_local_storage_1 = require("use-local-storage");
 var Sun_1 = require("src/components/Sun");
 var Moon_1 = require("src/components/Moon");
@@ -12,6 +11,6 @@ function Theme() {
         var newTheme = theme === 'light' ? 'dark' : 'light';
         setTheme(newTheme);
     };
-    return ((0, jsx_runtime_1.jsx)("div", { onClick: switchTheme, children: theme === 'light' ? (0, jsx_runtime_1.jsx)(Sun_1.default, {}) : (0, jsx_runtime_1.jsx)(Moon_1.default, {}) }));
+    return (React.createElement("div", { onClick: switchTheme }, theme === 'light' ? React.createElement(Sun_1.default, null) : React.createElement(Moon_1.default, null)));
 }
 ;
