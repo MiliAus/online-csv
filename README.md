@@ -3,4 +3,4 @@
 ## About
 Very simple online portfolio resume. 
 
-Thanks for stopping by!sdg
+Thanks for stopping by!
