@@ -26,7 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: cd $HOME/online-csv/
+    - run: cd $HOME/
+    - run: cat package.json
     - run: ls -l
     # - run: npm install
     # - run: npm run dev
