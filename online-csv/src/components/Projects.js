@@ -1,30 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var react_1 = require("react");
+var jsx_runtime_1 = require("react/jsx-runtime");
 var Projects = function () {
-    return (react_1.default.createElement(react_1.default.Fragment, null,
-        react_1.default.createElement("div", { className: 'fourth' },
-            react_1.default.createElement("h3", { id: "projects", className: 'title' }, "Projects"),
-            react_1.default.createElement("div", { className: 'project_columns' },
-                react_1.default.createElement("div", { className: 'projects_body' },
-                    react_1.default.createElement("div", { className: 'mt_1rem' },
-                        react_1.default.createElement("a", { className: "title", href: "https://github.com/Vito-Research" }, "Vito"),
-                        react_1.default.createElement("p", { className: 'mt_4' }, "Sunset public project focused on detecting infection in realtime. I worked on CI/CD processes such as setting up Github Actions and design choices for the frontend that utilized Swift UI."),
-                        react_1.default.createElement("div", null,
-                            react_1.default.createElement("img", { className: "project_image", src: "/src/assets/vito_website.PNG", alt: "vito website" }))),
-                    react_1.default.createElement("div", { className: 'mt_1rem' },
-                        react_1.default.createElement("a", { href: "https://github.com/MiliAus/todo-app" }, "TODO Application"),
-                        react_1.default.createElement("p", { className: 'mt_4' }, "Web app used to track tasks, delete tasks, and sort them based on priority."),
-                        react_1.default.createElement("div", null,
-                            react_1.default.createElement("img", { className: "project_image", src: "/src/assets/todo_darkmode.PNG", alt: "vito website" }))),
-                    react_1.default.createElement("div", { className: 'mt_1rem' },
-                        react_1.default.createElement("a", { href: "https://github.com/MiliAus/online-csv" }, "Austin Leverett Web Resume"),
-                        react_1.default.createElement("p", { className: 'mt_4' }, "Website built with React, serving as an online portfolio and resume."),
-                        react_1.default.createElement("div", null,
-                            react_1.default.createElement("img", { className: "project_image", src: "/src/assets/personal_website.PNG", alt: "vito website" })))),
-                react_1.default.createElement("div", { className: 'projects_body' })))));
+    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsxs)("div", { className: 'fourth', children: [(0, jsx_runtime_1.jsx)("h3", { id: "projects", className: 'title', children: "Projects" }), (0, jsx_runtime_1.jsxs)("div", { className: 'project_columns', children: [(0, jsx_runtime_1.jsxs)("div", { className: 'projects_body', children: [(0, jsx_runtime_1.jsxs)("div", { className: 'mt_1rem', children: [(0, jsx_runtime_1.jsx)("a", { className: "title", href: "https://github.com/Vito-Research", children: "Vito" }), (0, jsx_runtime_1.jsx)("p", { className: 'mt_4', children: "Sunset public project focused on detecting infection in realtime. I worked on CI/CD processes such as setting up Github Actions and design choices for the frontend that utilized Swift UI." }), (0, jsx_runtime_1.jsx)("div", { children: (0, jsx_runtime_1.jsx)("img", { className: "project_image", src: "/src/assets/vito_website.PNG", alt: "vito website" }) })] }), (0, jsx_runtime_1.jsxs)("div", { className: 'mt_1rem', children: [(0, jsx_runtime_1.jsx)("a", { href: "https://github.com/MiliAus/todo-app", children: "TODO Application" }), (0, jsx_runtime_1.jsx)("p", { className: 'mt_4', children: "Web app used to track tasks, delete tasks, and sort them based on priority." }), (0, jsx_runtime_1.jsx)("div", { children: (0, jsx_runtime_1.jsx)("img", { className: "project_image", src: "/src/assets/todo_darkmode.PNG", alt: "vito website" }) })] }), (0, jsx_runtime_1.jsxs)("div", { className: 'mt_1rem', children: [(0, jsx_runtime_1.jsx)("a", { href: "https://github.com/MiliAus/online-csv", children: "Austin Leverett Web Resume" }), (0, jsx_runtime_1.jsx)("p", { className: 'mt_4', children: "Website built with React, serving as an online portfolio and resume." }), (0, jsx_runtime_1.jsx)("div", { children: (0, jsx_runtime_1.jsx)("img", { className: "project_image", src: "/src/assets/personal_website.PNG", alt: "vito website" }) })] })] }), (0, jsx_runtime_1.jsx)("div", { className: 'projects_body' })] })] }) }));
 };
 exports.default = Projects;
-// <div><img className="project_image" src="/src/assets/vito_website.PNG" alt="vito website" /></div>
-// <div><img className="project_image" src="/src/assets/todo_darkmode.PNG" alt="vito website" /></div>
-// <div><img className="project_image" src="/src/assets/personal_website.PNG" alt="vito website" /></div>

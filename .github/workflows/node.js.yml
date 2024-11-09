@@ -30,4 +30,6 @@ jobs:
     - run: cd online-csv/
     - run: ls -l
     - run: cd online-csv/ && ls -l
+    - run: npm install
+    - run: npm run production
     # - run: npm run dev

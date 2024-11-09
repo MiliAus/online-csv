@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var jsx_runtime_1 = require("react/jsx-runtime");
 var react_1 = require("react");
 var react_2 = require("react");
 var Navbar = function () {
@@ -20,13 +21,6 @@ var Navbar = function () {
     function scrollTo(elementid) {
         document.getElementById(elementid).scrollIntoView({ behavior: 'smooth' });
     }
-    return (react_1.default.createElement(react_1.default.Fragment, null,
-        react_1.default.createElement("div", { className: 'navbar' },
-            react_1.default.createElement("section", null,
-                react_1.default.createElement("div", { id: "logo", className: 'navbar_logo', onClick: function () { return scrollTo("logo"); } }, "Lev"),
-                react_1.default.createElement("div", { className: isMobile ? 'hidden' : 'navbar_group1' },
-                    react_1.default.createElement("div", { onClick: function () { return scrollTo("about"); } }, "About"),
-                    react_1.default.createElement("div", { onClick: function () { return scrollTo("exp"); } }, "Experience"),
-                    react_1.default.createElement("div", { onClick: function () { return scrollTo("projects"); } }, "Projects"))))));
+    return ((0, jsx_runtime_1.jsx)(jsx_runtime_1.Fragment, { children: (0, jsx_runtime_1.jsx)("div", { className: 'navbar', children: (0, jsx_runtime_1.jsxs)("section", { children: [(0, jsx_runtime_1.jsx)("div", { id: "logo", className: 'navbar_logo', onClick: function () { return scrollTo("logo"); }, children: "Lev" }), (0, jsx_runtime_1.jsxs)("div", { className: isMobile ? 'hidden' : 'navbar_group1', children: [(0, jsx_runtime_1.jsx)("div", { onClick: function () { return scrollTo("about"); }, children: "About" }), (0, jsx_runtime_1.jsx)("div", { onClick: function () { return scrollTo("exp"); }, children: "Experience" }), (0, jsx_runtime_1.jsx)("div", { onClick: function () { return scrollTo("projects"); }, children: "Projects" })] })] }) }) }));
 };
 exports.default = Navbar;
