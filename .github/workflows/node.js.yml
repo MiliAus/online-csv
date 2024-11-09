@@ -36,9 +36,9 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install dependencies
-        run: cd online-csv && npm install
+        run: cd online-csv && npm install @types/node --save-dev
       - name: Build
-        run: cd online-csv && npm run build --outDir build
+        run: cd online-csv && npm run build
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
