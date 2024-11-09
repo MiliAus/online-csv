@@ -31,12 +31,13 @@ const Navbar = () => {
     return (
       <>
       <div className='navbar'>
-        <div id="logo" className='navbar_logo' onClick={() => scrollTo("logo")}>Lev</div>
+        <section><div id="logo" className='navbar_logo' onClick={() => scrollTo("logo")}>Lev</div>
         <div className={isMobile ? 'hidden' : 'navbar_group1'}>
           <div onClick={() => scrollTo("about")}>About</div>
           <div onClick={() => scrollTo("exp")}>Experience</div>
           <div onClick={() => scrollTo("projects")}>Projects</div>
         </div>
+        </section>
       </div>
 
       </>

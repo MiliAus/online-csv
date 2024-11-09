@@ -16,7 +16,10 @@ html, body, #app, #app>div {
 :root {
   --background: white;
   --text-primary: black;
-  --nav-primary: #12121232; 
+  --nav-primary: #12121232;
+  --screen-small: 2rem;
+  --screen-medium: 5rem;
+  --screen-large: 10rem; 
 }
 
 [data-theme='dark'] {
@@ -24,6 +27,26 @@ html, body, #app, #app>div {
   --text-primary: rgb(255, 255, 255); 
   --nav-primary: #383737;
 }
+
+@media (max-width: 600px) {
+  section {
+    margin-left: 3rem;
+    margin-right: 3rem
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  section {
+    margin-left: 3rem;
+    margin-right: 3rem
+  }
+}
+@media (min-width: 800px) {
+  section {
+    margin-left: 10rem;
+    margin-right: 10rem
+  }
+}
+
 
 .App {
   color: var(--text-primary);
@@ -54,8 +77,6 @@ html, body, #app, #app>div {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 10rem;
-    margin-right: 10rem;
 }
 
 .main_group2 {
@@ -124,8 +145,6 @@ html, body, #app, #app>div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 10rem;
-  margin-right: 10rem;
 } 
 
 
@@ -146,8 +165,6 @@ html, body, #app, #app>div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
 /* ***************************************************** */
@@ -168,8 +185,6 @@ html, body, #app, #app>div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 10rem;
-  margin-right: 10rem;
 }
 
 
@@ -193,7 +208,6 @@ html, body, #app, #app>div {
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
-  margin-left: 10rem;
   position: static;
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
@@ -277,4 +291,13 @@ a {
 
 .projects_body {
   margin-right: 3rem;
+}
+
+.pdf_svg {
+  fill: var(--text-primary)
+}
+.resume_link {
+  font-weight: 600;
+  max-width: 10rem;
+  cursor: pointer;
 }

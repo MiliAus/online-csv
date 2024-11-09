@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Theme from 'src/components/Theme'
 import Href from 'src/components/Href';
+import Pdf from 'src/components/Pdf';
 
 //images
 import Github from 'src/components/Github';
@@ -25,6 +26,8 @@ const Exp = () => {
       <p className='margins_small'>Responsible for planning, deploying, configuring, and maintaining the network infrastructure that supports operational needs in temporary, dynamic, and often austere environments</p>
       <p>Team Lead for several exercises, coordinating drills with leadership and ensuring mission success.</p>
       <p className='skills'>Skills: Cisco switches, Cisco Routing, Troubleshooting, Leadership</p>
+
+      <a className='resume_link' href="src/assets/Austin_Leverett.pdf"><p className='resume_link'>View Full Resume <Pdf /></p></a>
       
 
     </div>

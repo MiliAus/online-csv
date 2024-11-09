@@ -22,11 +22,13 @@ const App = () => {
     <>
     <div className="App" data-theme={theme}>
       <Navbar />
+      <section>
         <div className='main_box1'><Main /></div>
         <div className='secondary_box1'><About /></div>
         <div className='tertiary_box1'><Exp /></div>
         <div className='fourth_box1'><Projects /></div>
         <div className='fourth_box1'><Footer /></div>
+      </section>
     </div>
     </>
   );
