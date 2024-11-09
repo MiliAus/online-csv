@@ -275,7 +275,5 @@ a {
 }
 
 .projects_body {
-  display: inline-flex;
-  margin-left: 3rem;
   margin-right: 3rem;
 }
