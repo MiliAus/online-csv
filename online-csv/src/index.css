@@ -54,8 +54,8 @@ html, body, #app, #app>div {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .main_group2 {
@@ -124,8 +124,8 @@ html, body, #app, #app>div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 } 
 
 
@@ -146,8 +146,8 @@ html, body, #app, #app>div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 /* ***************************************************** */
@@ -168,8 +168,8 @@ html, body, #app, #app>div {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
 }
 
 
@@ -193,7 +193,7 @@ html, body, #app, #app>div {
 .navbar_logo {
   display: inline-flex;
   vertical-align: top;
-  margin-left: 3rem;
+  margin-left: 10rem;
   position: static;
   font-family: "Rubik Mono One", serif;
   font-weight: 400;
