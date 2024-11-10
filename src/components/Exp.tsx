@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import Theme from 'src/components/Theme'
 import Href from 'src/components/Href';
 import Pdf from 'src/components/Pdf';
+import Resume from 'src/assets/Austin_Leverett.pdf';
 
 //images
 import Github from 'src/components/Github';
@@ -27,7 +28,7 @@ const Exp = () => {
       <p>Team Lead for several exercises, coordinating drills with leadership and ensuring mission success.</p>
       <p className='skills'>Skills: Cisco switches, Cisco Routing, Troubleshooting, Leadership</p>
 
-      <a className='resume_link' href="./src/assets/Austin_Leverett.pdf"><p className='resume_link'>View Full Resume <Pdf /></p></a>
+      <a className='resume_link' href={Resume}><p className='resume_link'>View Full Resume <Pdf /></p></a>
       
 
     </div>
