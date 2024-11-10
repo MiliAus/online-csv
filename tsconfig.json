@@ -1,13 +1,24 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "skipLibCheck": true,
-    "jsx": "react-jsx",
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "declaration": true,
     "paths": {
-      "src/*": ["./src/*"],
-      "components/*":["./src/components/*"],
-      "assets": ["./src/assets/*"],
-      "lib": ["./src/lib/*"]
-    }
-  }
+      "src/*": ["./src/*"]
+    },
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.ts",
+    "node_modules"
+  ]
 }
