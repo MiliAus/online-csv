@@ -9,13 +9,15 @@
     "sourceMap": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
+    "jsx": "react-jsx",
     "declaration": true,
     "paths": {
       "src/*": ["./src/*"]
     },
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/**/*.tsx"
   ],
   "exclude": [
     "src/**/*.spec.ts",
