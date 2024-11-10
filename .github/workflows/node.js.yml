@@ -36,7 +36,7 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install dependencies
-        run: cd online-csv && npm install @types/node --save-dev
+        run: npm install @types/node --save-dev
       - name: Build
         run: npm run build
       - name: Setup Pages
