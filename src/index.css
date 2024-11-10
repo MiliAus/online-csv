@@ -241,6 +241,8 @@ html, body, #app, #app>div {
 
 .title {
   font-weight: 500;
+  display: flex;
+  align-items: center;
 }
 
 .skills {
@@ -300,4 +302,8 @@ a {
   font-weight: 600;
   max-width: 10rem;
   cursor: pointer;
+}
+
+svg{
+  fill: var(--text-primary);
 }
