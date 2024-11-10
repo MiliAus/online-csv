@@ -10,6 +10,7 @@ export default defineConfig({
       components: "/src/components",
       assets: "/src/assets",
       lib: "/src/lib",
+      outDir: "build"
     },
   },
 })
