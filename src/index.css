@@ -125,7 +125,7 @@ html, body, #app, #app>div {
 
 .main_greeting {
     color: var(--text-primary);
-    font-size: 20px;
+    font-size: 30px;
     
 }
 
