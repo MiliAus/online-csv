@@ -8,19 +8,30 @@ import Vito from '../assets/vito_website.png';
 import TODO from '../assets/todo_darkmode.png';
 import Web from '../assets/personal_website.png';
 import Link from 'src/components/Link';
+import VV from '../assets/og-image.png';
 
 
 const Projects = () => {
     return (
       <>
       <div className='fourth'>
-      <h3 id="projects" className='title'>Projects</h3>
+      <h3 id="projects" className='projects_title'>Projects</h3>
 
       <div className='project_columns'>
           <div className='projects_body'>
+              
+
+              <div className='mt_1rem'>
+                <a className="title" href="https://viral-vibes-studio.vercel.app/">Viral Vibes Studio<Link /></a>
+                <p className='mt_4'><a href="https://www.revenuecat.com/">Revenue Cat shipaton</a> hackathon project validating/fine-tuning TikTok videos with AI.</p>
+                <div><img className="project_image" src={VV} alt="vito website" /></div>
+              </div>
+
+
               <div className='mt_1rem'>
                 <a className="title" href="https://github.com/Vito-Research">Vito <Link /></a>
-                <p className='mt_4'>Sunset public project focused on detecting infection in realtime. I worked on CI/CD processes such as setting up Github Actions and design choices for the frontend that utilized Swift UI.</p>
+                <p className='mt_4'>Project focused on detecting infection in realtime.</p>
+                <p>Skills: CICD, overall security, UI formatting and UX</p>
                 <div><img className="project_image" src={Vito} alt="vito website" /></div>
               </div>
             

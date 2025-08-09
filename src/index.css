@@ -239,10 +239,24 @@ html, body, #app, #app>div {
 
 /* ***************************************************** */
 
+.projects_title {
+
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  margin-bottom: 0;
+
+ 
+}
+
+
 .title {
   font-weight: 500;
   display: flex;
   align-items: center;
+  font-size: larger;
+  margin-bottom: 0;
 }
 
 .skills {
@@ -255,10 +269,10 @@ html, body, #app, #app>div {
 }
 
 .mt_0 {
-  margin-top: 0px;
+  margin-top: 0rem;
 }
 .mt_1 {
-  margin-top: 1px;
+  margin-top: 1rem;
 }
 .mt_2 {
   margin-top: 2px;
@@ -284,15 +298,21 @@ a {
   text-decoration: none;
 }
 
+.project_columns {
+  display: grid;
+
+}
+
+.projects_body {
+  display: grid;
+  margin-right: 3rem;
+}
+
 
 .project_image {
   height: 250px;
   width: 450px;
   border: 1px var(--text-primary) solid;
-}
-
-.projects_body {
-  margin-right: 3rem;
 }
 
 .pdf_svg {
@@ -306,4 +326,25 @@ a {
 
 svg{
   fill: var(--text-primary);
+}
+
+.project_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.project_card {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.project_image {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 4px;
 }
